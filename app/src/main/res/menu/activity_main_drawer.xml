@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="我的申请">
+        <menu>
+            <item
+                android:id="@+id/nav_user_practice"
+                android:icon="@drawable/ic_drawer_practice"
+                android:title="我投递的实习" />
+            <item
+                android:id="@+id/nav_user_sponsor"
+                android:icon="@drawable/ic_drawer_sponsor"
+                android:title="我申请的赞助" />
+            <item
+                android:id="@+id/nav_user_group_plan"
+                android:icon="@drawable/ic_drawer_group_plan"
+                android:title="社团活动安排" />
+        </menu>
+    </item>
+    <item android:title="我的资料">
+        <menu>
+            <item
+                android:id="@+id/nav_user_resume"
+                android:icon="@drawable/ic_drawer_resume"
+                android:title="我的简历" />
+            <item
+                android:id="@+id/nav_user_certificate"
+                android:icon="@drawable/ic_drawer_certification"
+                android:title="社团认证" />
+            <item
+                android:id="@+id/nav_user_jobtest"
+                android:icon="@drawable/ic_drawer_jobtest"
+                android:title="职业测评" />
+        </menu>
+    </item>
+    <item android:title="设置">
+        <menu>
+            <item
+                android:id="@+id/nav_user_setting"
+                android:icon="@drawable/ic_drawer_settings"
+                android:title="软件设置" />
+        </menu>
+    </item>
+</menu>

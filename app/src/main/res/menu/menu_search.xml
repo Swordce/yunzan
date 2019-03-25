@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_share" android:id="@+id/search_practice" android:title="搜实习" />
+    <item android:icon="@drawable/ic_menu_share" android:id="@+id/search_sponsor" android:title="搜赞助" />
+</menu>

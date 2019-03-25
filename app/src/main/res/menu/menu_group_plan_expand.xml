@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/plan_republish"
+        android:icon="@drawable/ic_menu_editor"
+        android:title="修改并重新发布" />
+    <item
+        android:id="@+id/plan_delete"
+        android:icon="@drawable/ic_menu_delete_single"
+        android:title="删除安排" />
+</menu>

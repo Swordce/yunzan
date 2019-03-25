@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/qa_entrance_jump"
+        android:icon="@drawable/ic_menu_qa_entrance"
+        android:orderInCategory="100"
+        android:title="系统帮助"
+        app:showAsAction="always" />
+</menu>
