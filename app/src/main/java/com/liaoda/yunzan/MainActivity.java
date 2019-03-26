@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         priactiseFragment = new PriactiseFragment();
         sponsorFragment = new SponsorFragment();
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
-        viewPager.setAdapter(new YzHomeFragmentAdapter(getSupportFragmentManager(), this, new Fragment[]{this.homeFragment, this.priactiseFragment, this.sponsorFragment}, new String[]{"热点主页", "实习兼职", "社团赞助"}));
+        viewPager.setAdapter(new YzHomeFragmentAdapter(getSupportFragmentManager(), this, new Fragment[]{this.homeFragment, this.priactiseFragment, this.sponsorFragment}, new String[]{"热点推荐", "外联招聘", "外联推广"}));
         viewPager.setOffscreenPageLimit(2);
         ((TabLayout) findViewById(R.id.tabLayout)).setupWithViewPager(viewPager);
     }

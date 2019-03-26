@@ -28,7 +28,7 @@
     <string name="crop__wait">Please wait…</string>
     <string name="add">确定</string>
     <string name="album_view">选择图片</string>
-    <string name="app_name">云赞校园</string>
+    <string name="app_name">外联集</string>
     <string name="image_view">单击选择</string>
     <string name="limit_exceeded">最多能选 %d 张</string>
     <string name="permission_denied_albums">Allow access to photos, media and files on your device to view albums</string>
