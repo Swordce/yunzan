@@ -31,7 +31,7 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="找赞助，上云赞校园"
+            android:text="欢迎来到外联集"
             android:textAlignment="center"
             android:textColor="@color/third_text"
             android:textSize="15.0sp" />
@@ -148,7 +148,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="36.0dip"
-            android:text="登录则默认您已同意 《云赞校园使用协议》"
+            android:text="登录则默认您已同意 《外联集使用协议》"
             android:textAlignment="center"
             android:textColor="@color/third_text"
             android:textSize="13.0sp" />
