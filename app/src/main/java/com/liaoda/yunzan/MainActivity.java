@@ -1,5 +1,7 @@
 package com.liaoda.yunzan;
 
+import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -11,7 +13,9 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.liaoda.yunzan.adapter.YzHomeFragmentAdapter;
 import com.liaoda.yunzan.fragment.HomeFragment;
@@ -46,6 +50,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        na.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                switch (menuItem.getItemId()) {
+                    case R.id.nav_user_sponsor:
+                        startActivity(new Intent(MainActivity.this,MyApplyActivity.class));
+                        mDrawerLayout.closeDrawer(na);
+                        break;
+                }
+                return false;
+            }
+        });
+
         initLocalData();
     }
 
@@ -66,4 +83,5 @@ public class MainActivity extends AppCompatActivity {
         menuInflater.inflate(R.menu.main, menu);
         return true;
     }
+
 }

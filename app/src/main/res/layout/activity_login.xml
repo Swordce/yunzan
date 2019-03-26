@@ -136,12 +136,14 @@
         <TextView
             android:id="@+id/tv_register"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="46dp"
             android:layout_marginTop="10dip"
-            android:text="立即注册"
+            android:text="注册会员"
             android:textAlignment="center"
-            android:textColor="@color/third_text"
-            android:textSize="13.0sp" />
+            android:gravity="center"
+            android:background="@drawable/text_shape"
+            android:textColor="@color/primary"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/login_service_tv"
