@@ -31,7 +31,7 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="欢迎来到外联集"
+            android:text="欢迎注册外联集"
             android:textAlignment="center"
             android:textColor="@color/third_text"
             android:textSize="15.0sp" />
@@ -72,6 +72,7 @@
                 android:text="获取验证码"
                 android:textColor="@color/primary"
                 android:textSize="15.0sp"
+                android:visibility="gone"
                 android:theme="@style/Theme.AppCompat.Light" />
         </LinearLayout>
 
@@ -83,7 +84,7 @@
             android:id="@+id/login_smscode_et"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:hint="输入6位数字验证码"
+            android:hint="输入密码"
             android:inputType="number"
             android:maxLength="6"
             android:singleLine="true"
@@ -92,7 +93,23 @@
             custom:met_floatingLabel="normal"
             custom:met_floatingLabelAlwaysShown="true"
             custom:met_floatingLabelPadding="10.0dip"
-            custom:met_floatingLabelText="短信验证码"
+            custom:met_floatingLabelText="密码"
+            custom:met_textColor="@color/primary_text"
+            custom:met_textColorHint="@color/third_text" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="再次输入密码"
+            android:inputType="number"
+            android:maxLength="6"
+            android:singleLine="true"
+            android:textSize="15.0sp"
+            android:layout_marginTop="16dp"
+            custom:met_baseColor="@color/primary"
+            custom:met_floatingLabel="normal"
+            custom:met_floatingLabelAlwaysShown="true"
+            custom:met_floatingLabelPadding="10.0dip"
+            custom:met_floatingLabelText="再次输入密码"
             custom:met_textColor="@color/primary_text"
             custom:met_textColorHint="@color/third_text" />
 
@@ -129,36 +146,16 @@
             android:layout_centerHorizontal="true"
             android:background="@color/primary"
             android:gravity="center"
-            android:text="立即登录"
+            android:text="立即注册"
             android:textColor="#ffffffff"
             android:textSize="16sp"/>
-
-        <TextView
-            android:id="@+id/tv_register"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dip"
-            android:text="立即注册"
-            android:textAlignment="center"
-            android:textColor="@color/third_text"
-            android:textSize="13.0sp" />
-
-        <TextView
-            android:id="@+id/login_service_tv"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="42.0dip"
-            android:text="收不到短信？ 联系客服"
-            android:textAlignment="center"
-            android:textColor="@color/third_text"
-            android:textSize="13.0sp" />
 
         <TextView
             android:id="@+id/login_user_aggrement_tv"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="36.0dip"
-            android:text="登录则默认您已同意 《外联集使用协议》"
+            android:text="注册则默认您已同意 《外联集使用协议》"
             android:textAlignment="center"
             android:textColor="@color/third_text"
             android:textSize="13.0sp" />
